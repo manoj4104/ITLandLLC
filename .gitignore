@@ -1,0 +1,50 @@
+# WordPress credentials - NEVER commit
+wp-config.php
+
+# Hostinger-specific (not needed in other environments)
+.private/
+
+# Old backup files
+*.old
+*.bk
+
+# Uploads (managed separately / via S3 in production)
+wp-content/uploads/
+
+# Cache
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/w3tc-config/
+
+# WordPress upgrade files
+wp-content/upgrade/
+
+# Backup files
+wp-content/backup-migration/
+wp-content/backup-migration-storage/
+*.sql
+*.sql.gz
+*.tar.gz
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# WordPress debug log
+wp-content/debug.log
+
+# Composer
+vendor/
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local dev
+.env
+.env.local

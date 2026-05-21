@@ -1,0 +1,37 @@
+{
+  "framework": null,
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.7.2"
+    }
+  },
+  "routes": [
+    { "src": "/wp-admin/(.*)$", "dest": "/wp-admin/$1" },
+    {
+      "src": "^/wp-content/(.*)$",
+      "dest": "/wp-content/$1"
+    },
+    {
+      "src": "^/wp-includes/(.*)$",
+      "dest": "/wp-includes/$1"
+    },
+    {
+      "src": "^/(wp-.+\\.php)$",
+      "dest": "/$1"
+    },
+    {
+      "src": "^/(.+\\.php)$",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.php"
+    }
+  ],
+  "env": {
+    "DB_NAME": "@db_name",
+    "DB_USER": "@db_user",
+    "DB_PASSWORD": "@db_password",
+    "DB_HOST": "@db_host"
+  }
+}

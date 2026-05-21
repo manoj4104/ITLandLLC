@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Sitemap:https://itlandllc.com/sitemap.xml
+Sitemap:https://itlandllc.com/sitemap-1.xml
+Sitemap:https://itlandllc.com/sitemap-2.xml
+Sitemap:https://itlandllc.com/sitemap-3.xml
+Sitemap:https://itlandllc.com/sitemap-4.xml
+Sitemap:https://itlandllc.com/sitemap-5.xml
+Sitemap:https://itlandllc.com/sitemap-6.xml
+Sitemap:https://itlandllc.com/sitemap-7.xml
+Sitemap:https://itlandllc.com/sitemap-8.xml
+Sitemap:https://itlandllc.com/sitemap-9.xml
+Sitemap:https://itlandllc.com/sitemap-10.xml
+Sitemap:https://itlandllc.com/sitemap-11.xml
+Sitemap:https://itlandllc.com/sitemap-12.xml
+Sitemap:https://itlandllc.com/sitemap-13.xml
+Sitemap:https://itlandllc.com/sitemap-14.xml
+Sitemap:https://itlandllc.com/sitemap-15.xml
+Sitemap:https://itlandllc.com/sitemap-16.xml
+Sitemap:https://itlandllc.com/sitemap-17.xml
+Sitemap:https://itlandllc.com/sitemap-18.xml
+Sitemap:https://itlandllc.com/sitemap-19.xml
